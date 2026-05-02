@@ -1,0 +1,8 @@
+# Lambda Environment Variables
+# These are set in AWS Lambda -> Configuration -> Environment Variables
+# Do NOT put real values in this file — this is for reference only
+
+BUCKET_NAME=damage-predictions-25022776
+DYNAMODB_TABLE=predictions
+SNS_TOPIC_ARN=arn:aws:sns:eu-north-1:YOUR_ACCOUNT_ID:YOUR_TOPIC_NAME
+EC2_ENDPOINT=http://YOUR_EC2_PUBLIC_IP:5000
